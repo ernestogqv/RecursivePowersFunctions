@@ -5,6 +5,6 @@ import static xkorpion.Main.*;
 public class Tests {
     @Test
     public void test(){
-        assertEquals(recursive(2,64), 6);
+        assertEquals(recursive(2,64, 1, 0), 6);
     }
 }
